@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Black.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-BlackItalic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-LightItalic.ttf);
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-Light.ttf);
+    font-weight: lighter;
+}
+
+
+
+
+body {
+    margin: 0px;
+}
+* {
+    margin: 0px;
+    font-family:"Roboto", Arial, Helvetica, sans-serif;
+}
+header, .introduction, footer {
+    background-color: #1f2937;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.subscription div {
+    background-color: #3882f6;
+}
+.introduction h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+.header-link a, .introduction p, figcaption, footer {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header-logo a {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.information header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+blockquote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-top: 90px;
+    padding-left: 140px;
+    padding-right: 140px;
+    text-align: center;
+}
+.quote p {
+    padding-bottom: 80px;
+    text-align: end;
+    padding-right: 145px;
+    font-size: 24px;
+}
+.subscription section {
+    color: #f9faf8;
+}
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding-left: 30px;
+    padding-right: 30px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-style: none;
+}
+.subscription button {
+    border-color: #f9faf8;
+    border-style: solid;
+}
+.information img {
+    width: 110px;
+    height: 110px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+.introduction img {
+    width: 500px;
+    height: 250px;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+.header-link {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+.introduction div {
+    display: flex;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: space-evenly;
+}
+.introduction button {
+    margin-top: 10px;
+}
+.introduction-text {
+    width: 500px;
+    justify-content: space-around;
+
+}
+.information div {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.information h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.information img {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+figcaption {
+    width: 110px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #1f2937;
+}
+.quote div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.subscription div {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
